@@ -1,0 +1,89 @@
+.footer-logoborder {
+    position: relative;
+    height: 50px;
+    width: 60px;
+    border: 2px solid white;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    -webkit-animation-delay: 5s;
+    box-sizing: initial !important;
+}
+
+.footer-logoborder:hover {
+    border: 2px solid #33C3F0;
+}
+
+.footer-logo {
+    position: relative;
+    background-size: 100%;
+    display: block;
+    height: 50px;
+    text-indent: -99999px;
+    margin: 0 auto;
+}
+
+.footer-description1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.40rem;
+    text-align: center;
+    text-shadow: 0.1px 0.1px #80be00;
+    margin-top: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.8;
+}
+
+.footer-description2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.15rem;
+    text-align: center;
+    margin-bottom: 12px;
+    color: rgb(255, 255, 255);
+    line-height: 1.8;
+}
+
+.link-description {
+    text-decoration: none;
+    color: #80be00; 
+    display: inline;
+}
+
+.link-description:hover {
+    /*font-size: 1.4em;*/
+    color: #0FA0CE;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    -webkit-animation-delay: 5s;
+}
+
+.social{
+    text-decoration: none;
+    -webkit-transform:scale(0.8);
+    -moz-transform:scale(0.8);
+    -o-transfrom:scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration:0.5s;
+    -o-transition-duration:0.5s;
+}
+
+.social_links {
+    text-decoration: none;
+    color: #80be00;
+}
+
+#social-em:hover {
+    color:#33C3F0;
+}
+#social-facebook:hover {
+    color:#33C3F0;
+}
+
+#social-link:hover {
+    color:#33C3F0;
+}

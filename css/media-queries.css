@@ -1,0 +1,326 @@
+@media screen and (max-device-width:760px) {
+    .hideinmobile {
+        display: none;
+    }
+}
+
+@media screen and (min-device-width: 1200px) {
+    .modal-image {
+        height: 60vmin;
+    }
+}
+
+@media screen and (min-device-width: 1300px) {
+    .modal-title {
+        font-size: 5vmin;
+    }
+
+    .modal-description {
+        margin: 1.0em 8.0em 2.0em;
+    }
+}
+
+/*Mobile to Tablet*/
+/*@media screen and (min-device-width: 320px) and (max-device-width:349px) {*/
+/*    .modal-image {*/
+/*        display: none;*/
+/*    }*/
+    
+/*    .modal-title {*/
+/*        font-size: 30px;*/
+/*        margin: 0;*/
+/*    }*/
+    
+/*    .fa-lg {*/
+/*        display: none;*/
+/*    }*/
+    
+/*    .tag:after {*/
+/*        content:"\a";*/
+/*        white-space: pre;*/
+/*    }*/
+
+/*    .modal-description {*/
+/*        margin: 1.0em 0.0em 2.0em;*/
+/*    }*/
+    
+/*    .popup-close {*/
+/*        right: 30px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-device-width: 350px) and (max-device-width:399px) {*/
+/*    .modal-image {*/
+/*        display: none;*/
+/*    }*/
+    
+/*    .modal-title {*/
+/*        font-size: 30px;*/
+/*        margin: 0;*/
+/*    }*/
+    
+/*    .fa-lg {*/
+/*        display: none;*/
+/*    }*/
+    
+/*    .tag:after {*/
+/*        content:"\a";*/
+/*        white-space: pre;*/
+/*    }*/
+
+/*    .modal-description {*/
+/*        margin: 1.0em 0.0em 3.0em;*/
+/*    }*/
+    
+/*    .popup-close {*/
+/*        right: 30px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-device-width: 400px) and (max-device-width:499px) {*/
+/*    .modal-image {*/
+/*        display: none;*/
+/*    }*/
+    
+/*    .modal-title {*/
+/*        font-size: 30px;*/
+/*        margin: 0;*/
+/*    }*/
+    
+/*    .fa-lg {*/
+/*        display: none;*/
+/*    }*/
+    
+/*    .tag:after {*/
+/*        content:"\a";*/
+/*        white-space: pre;*/
+/*    }*/
+
+/*    .modal-description {*/
+/*        margin: 1.0em 0.0em 3.0em;*/
+/*    }*/
+    
+/*    .popup-close {*/
+/*        right: 30px;*/
+/*    }*/
+    
+/*    .popup-inner {*/
+/*        padding: 60px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-device-width: 350px) and (max-device-width:359px) {*/
+/*    .modal-image {*/
+/*        display: none;*/
+/*    }*/
+    
+/*    .modal-title {*/
+/*        font-size: 30px;*/
+/*        margin: 0;*/
+/*    }*/
+    
+/*    .fa-lg {*/
+/*        display: none;*/
+/*    }*/
+    
+/*    .tag:after {*/
+/*        content:"\a";*/
+/*        white-space: pre;*/
+/*    }*/
+
+/*    .modal-description {*/
+/*        margin: 1.0em 0.0em 3.0em;*/
+/*    }*/
+    
+/*    .popup-close {*/
+/*        right: 30px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-device-width: 400px) and (max-device-width:499px) {*/
+/*    .modal-image {*/
+/*        display: none;*/
+/*    }*/
+    
+/*    .modal-title {*/
+/*        font-size: 30px;*/
+/*        margin: 0;*/
+/*    }*/
+    
+/*    .fa-lg {*/
+/*        display: none;*/
+/*    }*/
+    
+/*    .tag:after {*/
+/*        content:"\a";*/
+/*        white-space: pre;*/
+/*    }*/
+
+/*    .modal-description {*/
+/*        margin: 1.0em 0.0em 3.0em;*/
+/*    }*/
+    
+/*    .popup-close {*/
+/*        right: 30px;*/
+/*    }*/
+    
+/*    .popup-inner {*/
+/*        padding: 60px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-device-width: 500px) and (max-device-width:600px) {*/
+/*    .modal-image {*/
+/*        display: none;*/
+/*    }*/
+    
+/*    .modal-title {*/
+/*        font-size: 30px;*/
+/*        margin: 0;*/
+/*    }*/
+    
+/*    .fa-lg {*/
+/*        display: none;*/
+/*    }*/
+    
+/*    .tag:after {*/
+/*        content:"\a";*/
+/*        white-space: pre;*/
+/*    }*/
+
+/*    .modal-description {*/
+/*        margin: 1.0em 0.0em 3.0em;*/
+/*    }*/
+    
+/*    .popup-close {*/
+/*        right: 30px;*/
+/*    }*/
+    
+/*    .popup-inner {*/
+/*        padding: 100px;*/
+/*    }*/
+/*}*/
+
+/*Tablet and small laptops*/
+/*@media screen and (min-device-width: 601px) and (max-device-width:750px) {*/
+/*    .modal-image {*/
+/*        height: 200px;*/
+/*    }*/
+    
+/*    .modal-title {*/
+/*        font-size: 25px;*/
+/*    }*/
+    
+/*    .modal-description {*/
+/*        font-size: 14px;*/
+/*        margin: 1.0em 5.0em 3.0em;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-device-width: 751px) and (max-device-width:900px) {*/
+/*    .modal-image {*/
+/*        height: 285px;*/
+/*    }*/
+
+/*    .modal-title {*/
+/*        font-size: 25px;*/
+/*    }*/
+    
+/*    .modal-description {*/
+/*        font-size: 14px;*/
+/*        margin: 1.0em 1.0em 2.0em;*/
+/*    }*/
+/*}*/
+
+/*Laptops and medium laptops*/
+/*@media screen and (min-device-width: 1026px) and (max-device-width:1281px) {*/
+/*    .modal-title {*/
+/*        font-size: 35px;*/
+/*    }*/
+    
+/*    .tag {*/
+/*        font-size: 10.5px;*/
+/*    }*/
+    
+/*    .modal-description {*/
+/*        margin: 1.0em 5.0em 3.5em;*/
+/*    }*/
+/*}*/
+
+/*Large Screens*/
+/*@media screen and (min-device-width: 1400px) {*/
+/*    .modal-image {*/
+/*        height: 400px;*/
+/*    }*/
+    
+/*    .modal-description {*/
+/*        margin: 1.0em 8.0em 2.0em;*/
+/*    }*/
+/*}*/
+
+@media screen and (max-device-width: 500px) {
+/*Intro Section*/
+    .section-heading {
+        font-size: 3.0em;
+    }
+    
+    .section-description-one {
+        font-size: 1.5em;
+    }
+
+    .section-description-two {
+        font-size: 1.5em;
+    }
+
+/*About Me Section*/
+    p.statement {
+        margin-bottom: 50px;
+    }
+
+/*Modal Section*/
+    .modal-image {
+        display: none;
+    }
+    
+    .modal-title {
+        font-size: 9vmin;
+        margin: 0;
+    }
+    
+    .fa-lg {
+        display: none;
+    }
+    
+    .tag {
+        font-size: 2.0vmin;
+    }
+
+    .modal-description {
+        font-size: 5.0vmin;
+        margin: 1.0em 0.0em 3.0em;
+    }
+    
+    .popup-close {
+        right: 30px;
+    }
+
+/*Experience Section*/
+    .experience-overlay .experience-block .experience-content .description {
+        display: none;
+    }
+    
+    .experience-overlay .experience-block .experience-content {
+        left: 15px;
+        z-index: 1;
+    }
+    
+    .experience-overlay .experience-block:nth-child(odd) .experience-content {
+        left: -15px;
+        z-index: 1;
+    }
+
+/*Contact Section*/
+    input {
+        width: 100%;
+    }
+}

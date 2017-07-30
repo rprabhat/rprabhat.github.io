@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/djirdehh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://hassandjirdeh.com
+  * I am djirdehh (https://keybase.io/djirdehh) on keybase.
+  * I have a public key with fingerprint DDDB C924 ED57 A0F4 4138  28F4 8507 B686 DC14 B0A9
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010177f9656de20905e5641efd949e7394d3bcd8f27faea7a81870962a743a140ff40a",
+            "fingerprint": "dddbc924ed57a0f4413828f48507b686dc14b0a9",
+            "host": "keybase.io",
+            "key_id": "8507b686dc14b0a9",
+            "kid": "010177f9656de20905e5641efd949e7394d3bcd8f27faea7a81870962a743a140ff40a",
+            "uid": "7c767a3f461a36e63c01ab108b1f7519",
+            "username": "djirdehh"
+        },
+        "service": {
+            "hostname": "hassandjirdeh.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1497740959,
+    "expire_in": 157680000,
+    "prev": "46054642459364f4c707fc004d2df8084e0fdaa6ba6c41e01aa94193c5ea0645",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.72
+Comment: https://keybase.io/crypto
+
+yMIqAnicrVJbSBVBGD6aikcIfEgpDaoVUkJk5uzszO7JbuLJesnooUyE4+zOrK6X
+3ePZ9WiYQQiZQlJgdLEoi4qgqIPQjQLTLkbRDdRK6CI+ZIYEIRhWtCv21mPzMsw/
+3/f93/fzP1i8yJeW8PVNzqoLB0qPJTy939Po2x26caZFUC22Rwi2CLV8/uJ1jNtO
+uNZgQlAAEEBCdAVLmPEAUIDEJYwg15mCFE5EBTFR1ZisB4hOOSVUhjIBCg5QgkQK
+EdB1BKiQL+iGWcWjkahhOq4sY0zVlADiTCIU6AhBUQ7IOpIlQFQsY6ZBpAKquMRq
+y/YYrjmV2rzAsNya+wjP2/sH/j/7bpyXIxrBhIo6wpCKmGNRA5CqEMgq1IkEvb6N
+No+atJ576WqMKOPV1UJrvuBWY4bGvcF6SRYQ1dS2qbmAK9CselcgErUcS7PqvG/H
+iQQ9trMn4sGbuBpeEAqrhsncWbqEGI/ahmUKQegiNcfwlCFSCEFAkZR8gTdHjCgP
+Gx5CIlgG7vHa8JgriTCQEEYBJCkiRjrSCCC6BgBiAabLQEYc6IxSrFKsuXNz41IF
+QUXUJE4BRpLgRWswLSEoujZplStpG1UmdRqjXGgd6K9I8iWk+VKSE70d86X50/9u
+Xudgqq89+LonfZu/4sSu3xe2jK85UXllx7OjSb1FZW2b255cLls8NT2Tdyfn5cxO
+yH+1nC5+nt3d3TzRFB49XHP7S0n/2njm4Ketn2eXlHRu7CqajT3sGwY1DfW5U1nX
+4y9OlV91rvYmvw+NFfXO2HmpKXkv4nOvZuekj9eSPrRa7St/dw62VIyCJ3D1ubas
+rWdXTOy+NTlp3bybFv95zOl7vH5/7pHl0vDg28cnk4rayx9t7ijcNL3Kmjhf8461
+BobmsiaXxGpHxg7d+54YO55NI/6uoQ0+vz/UfWk8J3NZRmUps2aWLtq5XftWmKH/
+GNi3N78QTC4d+rKuI2RexMVVIwdvhHr+ALyuQro=
+=3NeE
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/djirdehh
+
+==================================================================

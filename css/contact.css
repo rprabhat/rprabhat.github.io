@@ -1,0 +1,174 @@
+/*Contact Me Section*/
+.contact-me-section {
+  /*padding: 1em 0 0;*/
+  min-height: 700px;
+  text-align: center;
+  background-color: #000000;
+  background: url(../images/views.jpg) center fixed;
+}
+
+.background-darken {
+    min-height: 700px;
+    background: -webkit-linear-gradient(top ,rgba(0,0,0,.65),rgba(0,0,0,.65),rgba(0,0,0,.65),rgba(0,0,0,.65),rgba(0,0,0,.65));
+    background: linear-gradient(to bottom,rgba(0,0,0,.60),rgba(0,0,0,.60),rgba(0,0,0,.60),rgba(0,0,0,.60),rgba(0,0,0,.60));
+}
+
+.form-section {
+  padding-top: 100px;
+}
+
+.transparent-background {
+  background-color: rgba(0, 0, 0, 0.40) !important;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  /*color: #aca49c;*/
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  /*color: #bbb5af;*/
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  /*color: #aca49c;*/
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  /*color: #bbb5af;*/
+}
+
+input::placeholder, textarea::placeholder {
+  /*color: #aca49c;*/
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+  /*color: #bbb5af;*/
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  /*color: #aca49c;*/
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  /*color: #bbb5af;*/
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #cbc6c1;
+}
+
+#form {
+  position: relative;
+  max-width: 500px;
+  margin: 10px auto 0px auto;
+}
+
+input {
+  font-size: 0.875em;
+  width: 94%;
+  height: 50px;
+  padding: 0px 15px 0px 15px !important; /*Overwrite Skeleton CSS*/
+  background: rgba(247, 247, 247, 0);
+  border: 1px solid #80be00 !important; /*Overwrite Skeleton CSS*/
+  outline: none;
+  color: #fff;
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  box-sizing: none !important;
+}
+
+input:hover {
+  border: 1px solid #33C3F0 !important;
+  color: #fff;
+}
+
+textarea {
+  width: 100%;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.40) !important;
+  border: 1px solid #80be00;
+  outline: none;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  border: solid 1px #80be00;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  color: #e2dedb;
+  border: 1px solid #33C3F0;
+}
+
+form button:hover {
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  -webkit-animation-delay: 5s;
+}
+
+#submit {
+  width: 502px;
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: #fff;
+  outline:none;
+  cursor: pointer;
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
