@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-AU"
-title                    : "Site Title"
+title                    : "My personal WWW page"
 title_separator          : "-"
 name                     : "Prabhat"
 description              : "My personal WWW page."
