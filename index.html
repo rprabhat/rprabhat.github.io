@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prabhat Ranjan | Data Systems & AI Engineer</title>
+    <meta name="description" content="Building reasoning engines for regulated industries. AI architecture for healthcare, finance, and real estate.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg: #0d1117;
+            --bg-secondary: #161b22;
+            --border: #30363d;
+            --text: #c9d1d9;
+            --text-muted: #8b949e;
+            --accent: #58a6ff;
+            --accent-hover: #79c0ff;
+            --green: #238636;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Header */
+        header { padding: 60px 0; text-align: center; border-bottom: 1px solid var(--border); }
+        .avatar {
+            width: 120px; height: 120px; border-radius: 50%;
+            border: 3px solid var(--accent); margin-bottom: 20px;
+        }
+        h1 { color: var(--text); font-size: 2.2rem; margin-bottom: 8px; }
+        .tagline { color: var(--text-muted); font-size: 1.1rem; margin-bottom: 15px; }
+        .location { color: var(--text-muted); font-size: 0.9rem; }
+        
+        /* Links */
+        .links { margin-top: 20px; }
+        .links a {
+            display: inline-block;
+            color: var(--accent);
+            text-decoration: none;
+            margin: 0 12px;
+            padding: 8px 16px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            background: var(--bg-secondary);
+            transition: all 0.2s;
+        }
+        .links a:hover { border-color: var(--accent); background: rgba(88,166,255,0.1); }
+        
+        /* About Section */
+        section { padding: 50px 0; border-bottom: 1px solid var(--border); }
+        section:last-child { border-bottom: none; }
+        h2 { color: var(--text); font-size: 1.5rem; margin-bottom: 20px; }
+        
+        /* Stats */
+        .stats { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; }
+        .stat { text-align: center; }
+        .stat-number { font-size: 2rem; font-weight: bold; color: var(--accent); }
+        .stat-label { color: var(--text-muted); font-size: 0.85rem; }
+        
+        /* Expertise Grid */
+        .expertise { display: flex; flex-wrap: wrap; gap: 10px; }
+        .tag {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+        
+        /* Projects Grid */
+        .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+        .project {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+            transition: border-color 0.2s;
+        }
+        .project:hover { border-color: var(--accent); }
+        .project h3 { margin-bottom: 8px; }
+        .project h3 a { color: var(--accent); text-decoration: none; }
+        .project p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 12px; }
+        .project-tags { display: flex; gap: 8px; flex-wrap: wrap; }
+        .project-tags span {
+            background: rgba(88,166,255,0.1);
+            color: var(--accent);
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+        }
+        
+        /* Blog Posts */
+        .blog-posts { display: grid; gap: 16px; }
+        .blog-post {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px 20px;
+        }
+        .blog-post a {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        .blog-post a:hover { text-decoration: underline; }
+        .blog-post .date { color: var(--text-muted); font-size: 0.8rem; margin-top: 4px; }
+        
+        /* CTA */
+        .cta {
+            background: var(--green);
+            color: white;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 8px;
+            display: inline-block;
+            font-weight: 600;
+        }
+        .cta:hover { background: #2ea043; }
+        
+        /* Footer */
+        footer { padding: 40px 0; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+        footer a { color: var(--accent); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://avatars.githubusercontent.com/u/7974005?v=4" alt="Prabhat Ranjan" class="avatar">
+            <h1>Prabhat Ranjan</h1>
+            <p class="tagline">Building Reasoning Engines for Regulated Industries</p>
+            <p class="location">📍 Sydney, Australia</p>
+            <div class="links">
+                <a href="https://github.com/rprabhat">GitHub</a>
+                <a href="https://www.linkedin.com/in/prabhatr/">LinkedIn</a>
+                <a href="https://rprabhat.github.io/blog">Blog</a>
+                <a href="https://prabhatranjan.substack.com">Substack</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>About Me</h2>
+            <p>Founding Engineer & Fractional CTO with 20+ years in data platforms. Building AI architecture for healthcare, finance, and real estate. IIT-BHU Alumnus, ex-Canvas, JPMorgan, MSCI, BNP Paribas, and Apache Ignite Contributor.</p>
+            <br>
+            <p>Now building <strong><a href="https://www.sensibleanalytics.co" style="color:var(--accent)">Sensible Analytics</a></strong> — partnering with organisations to build data solutions that deliver measurable business outcomes.</p>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Open Source Contribs</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">Client Retention</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Expertise</h2>
+            <div class="expertise">
+                <span class="tag">Healthcare Analytics & AI</span>
+                <span class="tag">FinTech & Financial Services</span>
+                <span class="tag">Real Estate Analytics</span>
+                <span class="tag">Platform Architecture</span>
+                <span class="tag">Data Engineering</span>
+                <span class="tag">ML Ops</span>
+                <span class="tag">Cloud Migration</span>
+                <span class="tag">Regulatory Compliance</span>
+                <span class="tag">HIPAA / GDPR / SOC 2</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3><a href="https://rprabhat.github.io/chart-digitizer">📊 Chart Digitizer</a></h3>
+                    <p>ML-based data extraction from chart images using CNN object detection</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>Machine Learning</span><span>18 ⭐</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3><a href="https://github.com/rprabhat/qullamaggie_scanner">📈 Qullamaggie Scanner</a></h3>
+                    <p>Professional momentum stock scanner with 20-point scoring methodology</p>
+                    <div class="project-tags">
+                        <span>TypeScript</span><span>Finance</span><span>Trading</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3><a href="https://github.com/rprabhat/video_analysis">🎥 Video Analysis</a></h3>
+                    <p>AI study companion for educational videos with transcripts and summaries</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>AI</span><span>NLP</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3><a href="https://github.com/Sensible-Analytics/PropRoo">🏠 PropRoo</a></h3>
+                    <p>Australian property analytics engine with market data and investment metrics</p>
+                    <div class="project-tags">
+                        <span>TypeScript</span><span>Real Estate</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3><a href="https://github.com/Sensible-Analytics/fhir-integrator">🏥 FHIR Integrator</a></h3>
+                    <p>Production-ready FHIR R4 client for healthcare interoperability</p>
+                    <div class="project-tags">
+                        <span>Healthcare</span><span>HL7</span><span>HIPAA</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3><a href="https://github.com/Sensible-Analytics/folio">💰 Folio</a></h3>
+                    <p>Wealth portfolio tracker with Australian bank statement import</p>
+                    <div class="project-tags">
+                        <span>TypeScript</span><span>Finance</span>
+                    </div>
+                </div>
+            </div>
+            <p style="margin-top:20px;text-align:center;">
+                <a href="https://github.com/Sensible-Analytics" style="color:var(--accent);">View all repositories →</a>
+            </p>
+        </section>
+
+        <section>
+            <h2>Open Source</h2>
+            <p>Active contributor to Apache Ignite and other open source projects. 500+ contributions across various repositories.</p>
+            <br>
+            <div class="projects">
+                <div class="project">
+                    <h3><a href="https://github.com/apache/ignite">🔥 Apache Ignite</a></h3>
+                    <p>Distributed database and caching platform</p>
+                    <div class="project-tags"><span>Java</span><span>Distributed Systems</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Blog Posts</h2>
+            <div class="blog-posts">
+                <div class="blog-post">
+                    <a href="https://prabhatranjan.substack.com/p/ai-wont-save-you-if-your-data-is">AI Won't Save You If Your Data Is a Mess</a>
+                    <div class="date">Mar 26, 2026</div>
+                </div>
+                <div class="blog-post">
+                    <a href="https://prabhatranjan.substack.com/p/the-ai-moment-looking-back-to-look">The AI Moment: Looking Back to Look Forward</a>
+                    <div class="date">Mar 10, 2026</div>
+                </div>
+                <div class="blog-post">
+                    <a href="https://prabhatranjan.substack.com/p/technical-debt-the-hidden-cost-of">Technical Debt: The Hidden Cost of Software Development</a>
+                    <div class="date">Apr 28, 2025</div>
+                </div>
+                <div class="blog-post">
+                    <a href="https://prabhatranjan.substack.com/p/functors-applicatives-and-monads">Functors, Applicatives, and Monads with Real-Life Examples</a>
+                    <div class="date">Apr 27, 2025</div>
+                </div>
+            </div>
+            <p style="margin-top:20px;text-align:center;">
+                <a href="https://rprabhat.github.io/blog" style="color:var(--accent);">View all posts →</a>
+            </p>
+        </section>
+
+        <section>
+            <h2>Services</h2>
+            <p>Through <strong><a href="https://www.sensibleanalytics.co" style="color:var(--accent)">Sensible Analytics</a></strong>, I offer:</p>
+            <br>
+            <div class="expertise">
+                <span class="tag">AI & Data Analytics</span>
+                <span class="tag">Platform Modernisation</span>
+                <span class="tag">Fractional CTO</span>
+                <span class="tag">Healthcare Analytics</span>
+                <span class="tag">FinTech Solutions</span>
+                <span class="tag">Regulatory Compliance</span>
+            </div>
+            <br>
+            <p style="margin-top:20px;">
+                <a href="https://www.sensibleanalytics.co" class="cta" target="_blank">Explore Services →</a>
+            </p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>For business inquiries, partnerships, or collaboration:</p>
+            <br>
+            <div class="links">
+                <a href="mailto:hello@sensibleanalytics.co">Email</a>
+                <a href="https://www.linkedin.com/in/prabhatr/">LinkedIn</a>
+                <a href="https://github.com/rprabhat">GitHub</a>
+                <a href="https://www.sensibleanalytics.co">Website</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 Prabhat Ranjan</p>
+            <p style="margin-top:8px;">
+                <a href="https://www.sensibleanalytics.co">Sensible Analytics</a> | 
+                <a href="https://github.com/rprabhat">GitHub</a> | 
+                <a href="https://www.linkedin.com/in/prabhatr/">LinkedIn</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
