@@ -3,220 +3,262 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prabhat | Data Systems Engineer</title>
-    <meta name="description" content="Building data-intensive systems that scale.">
+    <title>Prabhat | Building data systems that work</title>
+    <meta name="description" content="I build data systems that work. Founder @ Sensible Analytics. Previously JPMorgan, MSCI, BNP Paribas. IIT-BHU. Sydney.">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        
         :root {
-            --bg: #0d1117;
-            --bg-secondary: #161b22;
-            --border: #30363d;
-            --text: #c9d1d9;
-            --text-muted: #8b949e;
-            --accent: #58a6ff;
-            --green: #238636;
-            --green-bright: #3fb950;
+            --bg: #FAFAFA;
+            --text: #1a1a1a;
+            --text-muted: #666;
+            --link: #1C3255;
+            --accent: #7C3AED;
+            --border: #e0e0e0;
         }
+        
         body {
-            font-family: 'SF Mono', 'Fira Code', monospace;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
             background: var(--bg);
             color: var(--text);
-            line-height: 1.6;
+            line-height: 1.7;
+            font-size: 16px;
         }
-        .container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
         
-        header { padding: 60px 0; text-align: center; border-bottom: 1px solid var(--border); }
-        .avatar {
-            width: 120px; height: 120px; border-radius: 50%;
-            border: 3px solid var(--accent); margin-bottom: 20px;
-            box-shadow: 0 0 20px rgba(88,166,255,0.3);
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 24px;
         }
-        h1 { color: var(--green-bright); font-size: 1.8rem; margin-bottom: 8px; font-weight: normal; }
-        .tagline { color: var(--text-muted); font-size: 1rem; margin-bottom: 15px; }
-        .location { color: var(--text-muted); font-size: 0.85rem; }
         
-        .links { margin-top: 25px; }
+        /* Header */
+        header {
+            padding: 80px 0 60px;
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+        
+        .tagline {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            max-width: 480px;
+        }
+        
+        .links {
+            margin-top: 24px;
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        
         .links a {
-            color: var(--accent);
+            color: var(--link);
             text-decoration: none;
-            margin: 0 10px;
-            padding: 8px 14px;
-            border: 1px solid var(--border);
-            border-radius: 4px;
-            background: var(--bg-secondary);
-            font-size: 0.85rem;
-            transition: all 0.2s;
-        }
-        .links a:hover { border-color: var(--green-bright); color: var(--green-bright); }
-        
-        section { padding: 40px 0; border-bottom: 1px solid var(--border); }
-        section:last-child { border-bottom: none; }
-        
-        h2 { 
-            color: var(--text); 
-            font-size: 1rem; 
-            margin-bottom: 16px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: var(--text-muted);
-        }
-        
-        code {
-            background: var(--bg-secondary);
-            padding: 2px 6px;
-            border-radius: 3px;
-            font-size: 0.85rem;
-            color: var(--green-bright);
-        }
-        
-        .stack { display: flex; flex-wrap: wrap; gap: 8px; }
-        .stack span {
-            background: rgba(63, 185, 80, 0.1);
-            border: 1px solid rgba(63, 185, 80, 0.3);
-            color: var(--green-bright);
-            padding: 4px 10px;
-            border-radius: 4px;
-            font-size: 0.75rem;
-        }
-        
-        .projects { display: grid; gap: 12px; }
-        .project {
-            background: var(--bg-secondary);
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            padding: 16px;
-        }
-        .project:hover { border-color: var(--accent); }
-        .project h3 { margin-bottom: 6px; font-weight: normal; }
-        .project h3 a { color: var(--accent); text-decoration: none; font-size: 0.95rem; }
-        .project p { color: var(--text-muted); font-size: 0.8rem; }
-        
-        .hot-takes {
-            background: var(--bg-secondary);
-            border-left: 3px solid var(--green-bright);
-            padding: 16px;
-            margin: 20px 0;
-        }
-        .hot-takes p {
-            font-style: italic;
-            color: var(--text-muted);
-            margin: 8px 0;
             font-size: 0.9rem;
         }
-        .hot-takes p::before { content: "> "; color: var(--green-bright); }
         
-        .stats { display: flex; justify-content: center; gap: 30px; }
-        .stat { text-align: center; }
-        .stat-number { font-size: 1.5rem; color: var(--green-bright); }
-        .stat-label { color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; }
+        .links a:hover {
+            text-decoration: underline;
+        }
         
-        footer { padding: 30px 0; text-align: center; color: var(--text-muted); font-size: 0.75rem; }
-        footer a { color: var(--accent); }
+        /* Sections */
+        section {
+            padding: 48px 0;
+            border-top: 1px solid var(--border);
+        }
+        
+        h2 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        
+        /* Products */
+        .product {
+            margin-bottom: 32px;
+        }
+        
+        .product:last-child {
+            margin-bottom: 0;
+        }
+        
+        .product h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+        
+        .product h3 a {
+            color: var(--text);
+            text-decoration: none;
+        }
+        
+        .product h3 a:hover {
+            color: var(--accent);
+        }
+        
+        .product p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            max-width: 520px;
+        }
+        
+        .product .tag {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            font-size: 0.65rem;
+            padding: 2px 8px;
+            border-radius: 3px;
+            margin-left: 8px;
+            vertical-align: middle;
+            font-weight: 500;
+        }
+        
+        /* Side projects */
+        .side-project {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 16px;
+        }
+        
+        .side-project-item {
+            padding: 16px;
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+        }
+        
+        .side-project-item h4 {
+            font-size: 0.95rem;
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+        
+        .side-project-item p {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+        
+        /* About */
+        .about p {
+            margin-bottom: 16px;
+            max-width: 520px;
+        }
+        
+        .about p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .about .meta {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        
+        /* Footer */
+        footer {
+            padding: 48px 0;
+            border-top: 1px solid var(--border);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+        
+        /* Mobile */
+        @media (max-width: 600px) {
+            header { padding: 48px 0 40px; }
+            section { padding: 32px 0; }
+            .side-project { grid-template-columns: 1fr; }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <img src="https://avatars.githubusercontent.com/u/7974005?v=4" alt="Prabhat" class="avatar">
-            <h1>> ./whoami</h1>
-            <p class="tagline">Prabhat — Data Systems Engineer</p>
-            <p class="location">📍 Sydney, AU | building data-intensive systems that scale</p>
+            <h1>> ./prabhat</h1>
+            <p class="tagline">
+                I build data systems that work. Currently building SensibleDB — an embedded graph-vector database that runs entirely on your machine.
+            </p>
             <div class="links">
-                <a href="https://github.com/rprabhat">GitHub</a>
                 <a href="https://www.linkedin.com/in/prabhatr/">LinkedIn</a>
-                <a href="https://rprabhat.github.io/blog">Blog</a>
+                <a href="https://github.com/rprabhat">GitHub</a>
+                <a href="https://prabhatranjan.substack.com/">Substack</a>
+                <a href="https://www.sensibleanalytics.co">Sensible Analytics</a>
             </div>
         </header>
 
         <section>
-            <h2>// superpowers</h2>
-            <div class="stack">
-                <span>Data Engineering (Spark, Kafka)</span>
-                <span>ML/AI Pipelines</span>
-                <span>Distributed Systems</span>
-                <span>AWS</span>
-                <span>ETL Pipelines</span>
+            <h2>Currently</h2>
+            <div class="product">
+                <h3>Founder @ Sensible Analytics</h3>
+                <p>Building SensibleDB — an embedded graph-vector database that bridges the gap between traditional databases and modern AI. Local-first. No cloud. No subscriptions.</p>
             </div>
         </section>
 
         <section>
-            <h2>// stack</h2>
-            <code>primary: [Python, Scala, TypeScript]</code><br><br>
-            <code>jvm: [Java, Scala]</code><br><br>
-            <code>backend: [Node.js, Spring Boot]</code><br><br>
-            <code>cloud: [AWS, Docker]</code><br><br>
-            <code>data: [Spark, Kafka, PostgreSQL]</code>
-        </section>
-
-        <section>
-            <h2>// hot_takes</h2>
-            <div class="hot-takes">
-                <p>"AI won't save you if your data is a mess"</p>
-                <p>"Technical debt compounds — handle it or it handles you"</p>
-                <p>"If it doesn't have tests, it doesn't work"</p>
-                <p>"Distributed systems are just local systems with better lies"</p>
+            <h2>Previously</h2>
+            <div class="about">
+                <p>Built data infrastructure at JPMorgan, MSCI, and BNP Paribas. If you've traded stocks or managed risk in finance, there's a good chance some code I wrote touched your data.</p>
+                <p class="meta">Education: IIT-BHU · Location: Sydney, Australia</p>
             </div>
         </section>
 
         <section>
-            <h2>// notable_projects</h2>
-            <div class="projects">
-                <div class="project">
-                    <h3><a href="https://rprabhat.github.io/chart-digitizer">📊 chart-digitizer</a></h3>
-                    <p>ML-based chart data extraction. 18★ and climbing.</p>
-                </div>
-                <div class="project">
-                    <h3><a href="https://github.com/rprabhat/qullamaggie_scanner">📈 qullamaggie_scanner</a></h3>
-                    <p>Momentum stock scanner. Because trading should be data-driven.</p>
-                </div>
-                <div class="project">
-                    <h3><a href="https://github.com/rprabhat/video_analysis">🎥 video_analysis</a></h3>
-                    <p>AI study companion with transcripts and summaries.</p>
-                </div>
-                <div class="project">
-                    <h3><a href="https://github.com/apache/ignite">🔥 apache/ignite</a></h3>
-                    <p>Open source contribution. Because distributed caching should be free.</p>
-                </div>
+            <h2>Products</h2>
+            <div class="product">
+                <h3>SensibleDB <span class="tag">NEW</span></h3>
+                <p>Embedded graph-vector database. Combines knowledge graphs with vector search. Works 100% offline. Your data never leaves your machine.</p>
+            </div>
+            <div class="product">
+                <h3><a href="https://proproo.sensibleanalytics.co">PropRoo</a></h3>
+                <p>Aussie property analytics. Market data, rental insights, investment metrics. Built with Tauri/Rust.</p>
+            </div>
+            <div class="product">
+                <h3><a href="https://qullamaggie.sensibleanalytics.co">Qullamaggie Scanner</a></h3>
+                <p>Stock market scanner. Momentum-based trading decisions. Integrates with Yahoo Finance.</p>
             </div>
         </section>
 
         <section>
-            <h2>// stats</h2>
-            <div class="stats">
-                <div class="stat">
-                    <div class="stat-number">20+</div>
-                    <div class="stat-label">Years</div>
+            <h2>Side Projects</h2>
+            <div class="side-project">
+                <div class="side-project-item">
+                    <h4>AI Learning Studio</h4>
+                    <p>Coming soon. Transform videos into knowledge graphs.</p>
                 </div>
-                <div class="stat">
-                    <div class="stat-number">500+</div>
-                    <div class="stat-label">OSS Contribs</div>
+                <div class="side-project-item">
+                    <h4>FHIR Integrator</h4>
+                    <p>Healthcare data interoperability. HL7 compliance.</p>
                 </div>
-                <div class="stat">
-                    <div class="stat-number">15+</div>
-                    <div class="stat-label">Repos</div>
+                <div class="side-project-item">
+                    <h4>Compliance Checker</h4>
+                    <p>HIPAA, GDPR, SOC 2 validation tools.</p>
+                </div>
+                <div class="side-project-item">
+                    <h4>Audit Trail System</h4>
+                    <p>Explainable AI logging for regulated industries.</p>
                 </div>
             </div>
         </section>
 
         <section>
-            <h2>// currently</h2>
-            <p>Building data-intensive applications.<br>
-            Learning things the hard way so you don't have to.<br>
-            Wondering why SQL always wins.</p>
-        </section>
-
-        <section>
-            <h2>// connect</h2>
-            <div class="links">
-                <a href="https://github.com/rprabhat">GitHub</a>
-                <a href="https://www.linkedin.com/in/prabhatr/">LinkedIn</a>
-                <a href="https://rprabhat.github.io/blog">Blog</a>
+            <h2>About</h2>
+            <div class="about">
+                <p>IIT-BHU alumnus. 20+ years building data systems. Apache Ignite contributor. Currently focused on making local AI accessible — no cloud dependency, no subscription, your data stays on your machine.</p>
+                <p>If you want to talk data infrastructure, AI systems, or property analytics — reach out.</p>
+                <p class="meta">hello@sensibleanalytics.co</p>
             </div>
         </section>
 
         <footer>
-            <p>> _</p>
-            <p style="margin-top:8px;">This page compiled with 100% caffeine and unit tests.</p>
+            <p>No tracking. No cookies. No analytics.</p>
         </footer>
     </div>
 </body>
