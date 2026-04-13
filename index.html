@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prabhat | Data Systems Engineer</title>
-    <meta name="description" content="Data systems engineer. Building data infrastructure at scale — JPMorgan, Prospection, Canva. Now building SensibleDB.">
+    <meta name="description" content="Data systems engineer. Building data infrastructure at scale. Previously Cammy, BNP Paribas.">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
@@ -157,6 +157,34 @@
             font-weight: 500;
         }
         
+        .blog-post {
+            margin-bottom: 20px;
+        }
+        
+        .blog-post:last-child {
+            margin-bottom: 0;
+        }
+        
+        .blog-post h3 {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+        
+        .blog-post h3 a {
+            color: var(--link);
+            text-decoration: none;
+        }
+        
+        .blog-post h3 a:hover {
+            color: var(--accent);
+        }
+        
+        .blog-post p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+        
         .side-project {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -215,7 +243,7 @@
         <header>
             <h1>> ./prabhat</h1>
             <p class="tagline">
-                Data systems engineer. Building infrastructure that handles real workloads — from trillion-row data warehouses to ML pipelines processing millions of images daily.
+                Data systems engineer. Building infrastructure that handles real workloads, from trillion-row data warehouses to ML pipelines processing millions of images daily.
             </p>
             <div class="links">
                 <a href="https://www.linkedin.com/in/prabhatr/">LinkedIn</a>
@@ -228,35 +256,17 @@
             <h2>Currently Building</h2>
             <div class="project">
                 <h3>SensibleDB <span class="tag">NEW</span></h3>
-                <p>Embedded graph-vector database. Combines knowledge graphs with vector search — runs 100% locally, no cloud, no subscriptions.</p>
+                <p>Embedded graph vector database. Combines knowledge graphs with vector search, runs 100% locally, no cloud, no subscriptions.</p>
                 <p class="tech">Rust · Graph algorithms · Vector embeddings · HNSW</p>
             </div>
         </section>
 
         <section>
-            <h2>Enterprise Experience</h2>
-            <div class="role">
-                <h3>Engineering Manager</h3>
-                <p class="company">Canva · 2024–2025</p>
-                <p>Led Face Grouping feature — ML pipeline using ONNX models for face embeddings, HNSW indexing for similarity search. Optimized ACL lookup from O(n) to O(1); met sub-200ms SLA.</p>
-                <p class="tech">glintr100.onnx · HNSW · Scala · Kubernetes</p>
-            </div>
-            <div class="role">
-                <h3>Senior Engineering Manager</h3>
-                <p class="company">Prospection · 2021–2024</p>
-                <p>Grew subscription revenue 56%→83%, reduced AWS costs 76% ($170K→$40K/mo). Architected FHIR-based public API generating $4.7M ARR. Launched predictive AI for rare disease markets.</p>
-                <p class="tech">FHIR · Python · AWS · Kafka · HIPAA</p>
-            </div>
-            <div class="role">
-                <h3>APAC Head, Investor Analytics Platform</h3>
-                <p class="company">JPMorgan · 2017–2021 · $30M budget</p>
-                <p>Modernized legacy performance & compliance systems serving 400+ funds. Migrated Hadoop to Snowflake. Built Apache Ignite-powered calculation engines with 3x throughput.</p>
-                <p class="tech">Spark · Kafka · Snowflake · Cassandra · Apache Ignite</p>
-            </div>
+            <h2>Experience</h2>
             <div class="role">
                 <h3>Principal Engineer</h3>
-                <p class="company">Cammy · 2016–2017</p>
-                <p>Scaled image processing pipeline to 40M images/day. Migrated monolithic JS backend to Scala microservices. Enabled US/UK market expansion.</p>
+                <p class="company">Cammy · 2016-2017</p>
+                <p>Scaled image processing pipeline to 40M images per day. Migrated monolithic JS backend to Scala microservices. Enabled US and UK market expansion.</p>
                 <p class="tech">Scala · Akka · AWS · Distributed systems</p>
             </div>
         </section>
@@ -275,7 +285,7 @@
             </div>
             <div class="project">
                 <h3>Video Analysis</h3>
-                <p>AI study companion for educational videos — transcripts, visual summaries, smart navigation.</p>
+                <p>AI study companion for educational videos. Transcripts, visual summaries, smart navigation.</p>
                 <p class="tech">Python · React · Split-Helix UI</p>
             </div>
             <div class="project">
@@ -287,6 +297,30 @@
                 <h3>Apache Ignite</h3>
                 <p>Active contributor to open-source distributed caching and compute platform.</p>
                 <p class="tech">Java · Scala · Distributed systems</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Writing</h2>
+            <div class="blog-post">
+                <h3><a href="https://prabhatranjan.substack.com/p/building-embedding-index-at-scale">Building an Embedding Index at Scale</a></h3>
+                <p>How to handle billions of vectors with HNSW, vector quantization, and distributed architectures.</p>
+            </div>
+            <div class="blog-post">
+                <h3><a href="https://prabhatranjan.substack.com/p/data-modeling-for-vectordb">Data Modeling for Vector Databases</a></h3>
+                <p>Lessons learned building SensibleDB. Graph structures, hybrid search, and schema design.</p>
+            </div>
+            <div class="blog-post">
+                <h3><a href="https://prabhatranjan.substack.com/p/fhir-at-enterprise">FHIR in Enterprise Healthcare</a></h3>
+                <p>Lessons from building a $4.7M ARR FHIR API. Standards, compliance, and real-world adoption.</p>
+            </div>
+            <div class="blog-post">
+                <h3><a href="https://prabhatranjan.substack.com/p/cost-optimization-at-scale">Cost Optimization at Scale</a></h3>
+                <p>How we reduced AWS infrastructure costs by 76% without sacrificing performance.</p>
+            </div>
+            <div class="blog-post">
+                <h3><a href="https://prabhatranjan.substack.com/p/ml-pipeline-face-grouping">ML Pipeline for Face Grouping</a></h3>
+                <p>Building a production ML pipeline. ONNX models, clustering algorithms, and SLA enforcement.</p>
             </div>
         </section>
 
@@ -307,8 +341,8 @@
         <section>
             <h2>About</h2>
             <div class="about">
-                <p>20+ years building data systems in regulated industries — finance and healthcare. Been the big company guy (JPMorgan $30M budgets), the startup guy (40M images/day), and everything in between.</p>
-                <p>Currently focused on making local AI accessible — no cloud dependency, no subscription, your data stays on your machine.</p>
+                <p>20+ years building data systems in regulated industries, finance and healthcare. Built for enterprise scale, the startup pace, and everything in between.</p>
+                <p>Currently focused on making local AI accessible. No cloud dependency, no subscription, your data stays on your machine.</p>
                 <p class="meta">IIT-BHU · Apache Ignite contributor · Sydney, Australia</p>
             </div>
         </section>
