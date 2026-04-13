@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prabhat | Building data systems that work</title>
-    <meta name="description" content="I build data systems that work. Founder @ Sensible Analytics. Previously JPMorgan, MSCI, BNP Paribas. IIT-BHU. Sydney.">
+    <title>Prabhat | Data Systems Engineer</title>
+    <meta name="description" content="Data systems engineer. Building data infrastructure at scale — JPMorgan, Prospection, Canva. Now building SensibleDB.">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
@@ -31,7 +31,6 @@
             padding: 0 24px;
         }
         
-        /* Header */
         header {
             padding: 80px 0 60px;
         }
@@ -46,7 +45,7 @@
         .tagline {
             color: var(--text-muted);
             font-size: 1.1rem;
-            max-width: 480px;
+            max-width: 520px;
         }
         
         .links {
@@ -66,7 +65,6 @@
             text-decoration: underline;
         }
         
-        /* Sections */
         section {
             padding: 48px 0;
             border-top: 1px solid var(--border);
@@ -80,34 +78,71 @@
             margin-bottom: 20px;
         }
         
-        /* Products */
-        .product {
-            margin-bottom: 32px;
+        .role {
+            margin-bottom: 28px;
         }
         
-        .product:last-child {
+        .role:last-child {
             margin-bottom: 0;
         }
         
-        .product h3 {
+        .role h3 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .role .company {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+        
+        .role p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            max-width: 520px;
+        }
+        
+        .role .tech {
+            font-size: 0.8rem;
+            color: var(--accent);
+            margin-top: 6px;
+        }
+        
+        .project {
+            margin-bottom: 24px;
+        }
+        
+        .project:last-child {
+            margin-bottom: 0;
+        }
+        
+        .project h3 {
             font-size: 1.1rem;
             font-weight: 600;
             margin-bottom: 6px;
         }
         
-        .product h3 a {
+        .project h3 a {
             color: var(--text);
             text-decoration: none;
         }
         
-        .product h3 a:hover {
+        .project h3 a:hover {
             color: var(--accent);
         }
         
-        .product p {
+        .project p {
             color: var(--text-muted);
             font-size: 0.95rem;
             max-width: 520px;
+        }
+        
+        .project .tech {
+            font-size: 0.8rem;
+            color: var(--accent);
+            margin-top: 4px;
         }
         
         .product .tag {
@@ -122,7 +157,6 @@
             font-weight: 500;
         }
         
-        /* Side projects */
         .side-project {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -148,7 +182,6 @@
             color: var(--text-muted);
         }
         
-        /* About */
         .about p {
             margin-bottom: 16px;
             max-width: 520px;
@@ -163,7 +196,6 @@
             font-size: 0.9rem;
         }
         
-        /* Footer */
         footer {
             padding: 48px 0;
             border-top: 1px solid var(--border);
@@ -171,7 +203,6 @@
             font-size: 0.85rem;
         }
         
-        /* Mobile */
         @media (max-width: 600px) {
             header { padding: 48px 0 40px; }
             section { padding: 32px 0; }
@@ -184,59 +215,84 @@
         <header>
             <h1>> ./prabhat</h1>
             <p class="tagline">
-                I build data systems that work. Currently building SensibleDB — an embedded graph-vector database that runs entirely on your machine.
+                Data systems engineer. Building infrastructure that handles real workloads — from trillion-row data warehouses to ML pipelines processing millions of images daily.
             </p>
             <div class="links">
                 <a href="https://www.linkedin.com/in/prabhatr/">LinkedIn</a>
                 <a href="https://github.com/rprabhat">GitHub</a>
                 <a href="https://prabhatranjan.substack.com/">Substack</a>
-                <a href="https://www.sensibleanalytics.co">Sensible Analytics</a>
             </div>
         </header>
 
         <section>
-            <h2>Currently</h2>
-            <div class="product">
-                <h3>Founder @ Sensible Analytics</h3>
-                <p>Building SensibleDB — an embedded graph-vector database that bridges the gap between traditional databases and modern AI. Local-first. No cloud. No subscriptions.</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Previously</h2>
-            <div class="about">
-                <p>Built data infrastructure at JPMorgan, MSCI, and BNP Paribas. If you've traded stocks or managed risk in finance, there's a good chance some code I wrote touched your data.</p>
-                <p class="meta">Education: IIT-BHU · Location: Sydney, Australia</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Products</h2>
-            <div class="product">
+            <h2>Currently Building</h2>
+            <div class="project">
                 <h3>SensibleDB <span class="tag">NEW</span></h3>
-                <p>Embedded graph-vector database. Combines knowledge graphs with vector search. Works 100% offline. Your data never leaves your machine.</p>
+                <p>Embedded graph-vector database. Combines knowledge graphs with vector search — runs 100% locally, no cloud, no subscriptions.</p>
+                <p class="tech">Rust · Graph algorithms · Vector embeddings · HNSW</p>
             </div>
-            <div class="product">
+        </section>
+
+        <section>
+            <h2>Enterprise Experience</h2>
+            <div class="role">
+                <h3>Engineering Manager</h3>
+                <p class="company">Canva · 2024–2025</p>
+                <p>Led Face Grouping feature — ML pipeline using ONNX models for face embeddings, HNSW indexing for similarity search. Optimized ACL lookup from O(n) to O(1); met sub-200ms SLA.</p>
+                <p class="tech">glintr100.onnx · HNSW · Scala · Kubernetes</p>
+            </div>
+            <div class="role">
+                <h3>Senior Engineering Manager</h3>
+                <p class="company">Prospection · 2021–2024</p>
+                <p>Grew subscription revenue 56%→83%, reduced AWS costs 76% ($170K→$40K/mo). Architected FHIR-based public API generating $4.7M ARR. Launched predictive AI for rare disease markets.</p>
+                <p class="tech">FHIR · Python · AWS · Kafka · HIPAA</p>
+            </div>
+            <div class="role">
+                <h3>APAC Head, Investor Analytics Platform</h3>
+                <p class="company">JPMorgan · 2017–2021 · $30M budget</p>
+                <p>Modernized legacy performance & compliance systems serving 400+ funds. Migrated Hadoop to Snowflake. Built Apache Ignite-powered calculation engines with 3x throughput.</p>
+                <p class="tech">Spark · Kafka · Snowflake · Cassandra · Apache Ignite</p>
+            </div>
+            <div class="role">
+                <h3>Principal Engineer</h3>
+                <p class="company">Cammy · 2016–2017</p>
+                <p>Scaled image processing pipeline to 40M images/day. Migrated monolithic JS backend to Scala microservices. Enabled US/UK market expansion.</p>
+                <p class="tech">Scala · Akka · AWS · Distributed systems</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="project">
                 <h3><a href="https://proproo.sensibleanalytics.co">PropRoo</a></h3>
-                <p>Aussie property analytics. Market data, rental insights, investment metrics. Built with Tauri/Rust.</p>
+                <p>Australian property analytics engine. Market data, rental insights, investment metrics.</p>
+                <p class="tech">Tauri · Rust · DuckDB · React</p>
             </div>
-            <div class="product">
+            <div class="project">
                 <h3><a href="https://qullamaggie.sensibleanalytics.co">Qullamaggie Scanner</a></h3>
-                <p>Stock market scanner. Momentum-based trading decisions. Integrates with Yahoo Finance.</p>
+                <p>Stock market scanner using Qullamaggie methodology. 20-point scoring system with live Yahoo Finance data.</p>
+                <p class="tech">Python · yfinance · FastAPI · React</p>
+            </div>
+            <div class="project">
+                <h3>Video Analysis</h3>
+                <p>AI study companion for educational videos — transcripts, visual summaries, smart navigation.</p>
+                <p class="tech">Python · React · Split-Helix UI</p>
+            </div>
+            <div class="project">
+                <h3>FHIR Integrator</h3>
+                <p>Production-ready FHIR R4 client for healthcare interoperability. Full HL7 compliance.</p>
+                <p class="tech">TypeScript · FHIR R4 · HL7</p>
+            </div>
+            <div class="project">
+                <h3>Apache Ignite</h3>
+                <p>Active contributor to open-source distributed caching and compute platform.</p>
+                <p class="tech">Java · Scala · Distributed systems</p>
             </div>
         </section>
 
         <section>
             <h2>Side Projects</h2>
             <div class="side-project">
-                <div class="side-project-item">
-                    <h4>AI Learning Studio</h4>
-                    <p>Coming soon. Transform videos into knowledge graphs.</p>
-                </div>
-                <div class="side-project-item">
-                    <h4>FHIR Integrator</h4>
-                    <p>Healthcare data interoperability. HL7 compliance.</p>
-                </div>
                 <div class="side-project-item">
                     <h4>Compliance Checker</h4>
                     <p>HIPAA, GDPR, SOC 2 validation tools.</p>
@@ -251,9 +307,9 @@
         <section>
             <h2>About</h2>
             <div class="about">
-                <p>IIT-BHU alumnus. 20+ years building data systems. Apache Ignite contributor. Currently focused on making local AI accessible — no cloud dependency, no subscription, your data stays on your machine.</p>
-                <p>If you want to talk data infrastructure, AI systems, or property analytics — reach out.</p>
-                <p class="meta">hello@sensibleanalytics.co</p>
+                <p>20+ years building data systems in regulated industries — finance and healthcare. Been the big company guy (JPMorgan $30M budgets), the startup guy (40M images/day), and everything in between.</p>
+                <p>Currently focused on making local AI accessible — no cloud dependency, no subscription, your data stays on your machine.</p>
+                <p class="meta">IIT-BHU · Apache Ignite contributor · Sydney, Australia</p>
             </div>
         </section>
 
